@@ -1,7 +1,7 @@
 <style>
   #images/dogvscat-logo.gif{position:static;} 
-  #top-menu {position:absolute;top:0;left:0;padding:10px;width:24px;}
-.menu {color:light-gray; width:12px:position:top:0;left:0;}
+  #top-menu {position:absolute;top:24px;left:0;padding:10px;width:24px;}
+.menu {color:light-gray; width:12px:position:absolute;top:24px;left:0;}
   .article {padding:10px;position:absolute;top:0;left:0;}
 #images/llama2.png {float:right;} 
  #Lorem-Ipsum {position:absolute;top:0;right:0;padding:10px;width:24px;}
