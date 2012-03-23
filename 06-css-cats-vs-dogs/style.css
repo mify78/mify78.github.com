@@ -98,7 +98,8 @@ body{
 	#top-menu.li a{ display:block;
 	padding:15px 20px;
     font-size:18px;
-    color:white;}
+    color:white;
+    text-decoration:none;}
 	
 article	{
 	float:left;
