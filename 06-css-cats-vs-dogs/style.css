@@ -81,7 +81,7 @@ body{
 	height:853px;
 	background-color: white;}
 	
-	img{
+	img.logo{
 	position:relative;
 	top:0;
 	left:200px;
@@ -111,9 +111,26 @@ body{
   #top-menu li a:hover { 
   background-color:#DDD; }
 	
-article	{
+img.dog{
 	float:left;
-	width:40%;
+	width:93%;
+	margin:20px 0px;
+	padding:10px;}
+	
+	article.dog	{
+	float:left;
+	width:50%;
+	margin:20px 0px;}
+	
+	img.cat{
+	float:right;
+	width:90%;
+	margin:20px 0px;
+	padding:10px;}
+	
+	article.cat	{
+	float:right;
+	width:50%;
 	margin:20px 0px;}
 	
 	h1{
@@ -129,10 +146,8 @@ article	{
 		text-align:left;}
 		
 		
-footer {clear:both;}
-position:relative;
-	top:10px;
-	left:0;
-	width:960px;
-	height:60px;}
+footer {
+clear:both;
+font-weight:italic;
+font:0.75em/1.5em verdana,san-serif;}
 
