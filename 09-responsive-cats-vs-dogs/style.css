@@ -77,26 +77,24 @@ html[xmlns] .clearfix { display: block; }
 body{
 	position:relative;
 	margin: 0 auto; 
-	width:960px;
-	background-color: grey;}
+	max-width:100%;
+	background-color:white;}
 	
-	#site-wrapper {
-	background-color:#fot5db;}
+	#main-content{
+	max-width:100%;}
 	
-	#site-header h1 a{
-	display:block; 
-	height:125px;
-	width:300px;
-	background:url(image/logo.png) 
-	no-repeat top left;
-	text-indent-9999px;}
-	
+	img.logo{
+	position:relative;
+	top:0;
+	left:200px;
+	max-width:100%;
+	margin:15px 10px 10px 20px;}
 	
 #top-menu{
 	position:relative;
 	top:10px;
 	left:160px;
-	width:960px;
+	max-width:100%;
 	height:50px;}
 	
 	#top-menu li { 
@@ -114,27 +112,31 @@ body{
     
   #top-menu li a:hover { 
   background-color:#DDD; }
-  
-  #top-nav{
-  position:absolute;
-  top:10px;
-  left:675px;
-  color:#744917;}
 	
-article	{
+img.dog{
 	float:left;
-	width:40%;
+	width:93%;
+	margin:20px 0px;
+	padding:10px;}
+	
+	article.dog	{
+	float:left;
+	width:50%;
+	margin:20px 0px;}
+	
+	img.cat{
+	float:right;
+	width:90%;
+	margin:20px 0px;
+	padding:10px;}
+	
+	article.cat	{
+	float:right;
+	width:50%;
 	margin:20px 0px;}
 	
 	h1{
-	font:1.8em/1.8em"georgia";
-	font-weight:bold;
-	font-style:italic
-	margin:10px 20px;
-	text-align:left;}
-	
-	h2{
-	font:1.2em/1.2em"georgia";
+	font:1.4em/1.4em"georgia";
 	font-weight:bold;
 	margin:10px 20px;
 	text-align:left;}
@@ -146,5 +148,8 @@ article	{
 		text-align:left;}
 		
 		
-footer {clear:both;}
+footer {
+clear:both;
+font-weight:italic;
+font:0.75em/1.5em verdana,san-serif;}
 
