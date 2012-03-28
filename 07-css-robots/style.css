@@ -75,76 +75,157 @@ html[xmlns] .clearfix { display: block; }
 
 
 body{
-	position:relative;
-	margin: 0 auto; 
-	width:960px;
-	background-color: grey;}
+font-family:Helvetica, Arial, San-serif;
+font-size:16px;
+background-color: white;}
 	
 	#site-wrapper {
-	background-color:#fot5db;}
+	background-color:#f0f5de;
+	height:123px;}
+	
+	#site-header {
+	width:960px;
+	margin:0 auto;
+	position:relative;}
+	
+	#site-header h1{
+	position:absolute;}
 	
 	#site-header h1 a{
-	display:block; 
-	height:125px;
-	width:300px;
-	background:url(image/logo.png) 
-	no-repeat top left;
-	text-indent-9999px;}
+	display:block;
+	width:306px;
+	height:123px;
+	background:url(images/logo.png) no-repeat top left;
+	text-indent:-9999px;}
 	
-	
-#top-menu{
-	position:relative;
-	top:10px;
-	left:160px;
-	width:960px;
-	height:50px;}
-	
-	#top-menu li { 
-    float:left; 
-    border-right:
-    1px solid #CCC;}
+	#top-nav{
+  	position:absolute;
+  	right:0;
+  	top:5px;
+  	color:#744917}
+  	
+  	#top-nav a{
+  	color:#744917;
+  	text-decoration:none;
+  	padding:0 10px;}
   
-  #top-menu li.last { border:0px; }
+  #menu-wrapper{
+  background-color:#82582d;
+  height:40px;}
   
-  #top-menu li a { display:block; 
-    padding:15px 20px;
-    font-size:18px;
-    color:black;
-    text-decoration:none;}
-    
-  #top-menu li a:hover { 
-  background-color:#DDD; }
+  #main-menu{
+  margin:0 auto;
+  width:960px;}
   
-  #top-nav{
-  position:absolute;
-  top:10px;
-  left:675px;
-  color:#744917;}
-	
-article	{
-	float:left;
-	width:40%;
-	margin:20px 0px;}
-	
-	h1{
-	font:1.8em/1.8em"georgia";
-	font-weight:bold;
-	font-style:italic
+  #main-menu li{
+  float:left;}
+  
+  #main-menu li a{
+  display:block;
+  padding:10px 15px 0 15px;
+  color:white;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-weight:bold;}
+  
+	#main-menu li a:hover { 
+  	background-color:tan;}
+  
+  	#content-wrapper{
+  	width:960px;
+  	margin:0 auto;}
+  
+  #page{
+  float:left;
+  width:500px;
+  padding-top:25px;}
+  
+ #page h1{
+	font-size:36px;  
+	font-family: 'LobsterTwoBold';
 	margin:10px 20px;
-	text-align:left;}
+	color:#82582d;
+	padding-top:5px;}
 	
-	h2{
-	font:1.2em/1.2em"georgia";
+#page	h2{
+	font-size:24px;
+	font-family:georgia;
 	font-weight:bold;
 	margin:10px 20px;
-	text-align:left;}
-		
-	p{
+	color:#82582d;
+	padding-top:5px;}
+	
+	#page p{
 	font:0.75em/1.5em verdana,san-serif; 
 		text-transform:capitalize;
-		margin:10px 20px;
-		text-align:left;}
-		
-		
-footer {clear:both;}
+		margin:10px 20px;}
+  
+  #sidebar{float:right;
+  width:250px;
+  padding-top:55px;}
+  
+  #sidebar li a{
+    text-decoration:none;
+    color:#82582d;}
+    
+    #sidebar ul{
+    padding-bottom:20px;}
+    
+  #sidebar li{
+  padding:8px 0;}
+  
+  #sidebar img{
+  padding-top:10px;
+  padding-bottom:10px;}
+  
+  #sidebar	h1{
+	font-size:24px;
+	font-family:georgia;
+	font-weight:bold;
+	color:#82582d;
+	padding-top:5px;
+	padding-bottom:5px;}
+  
+  #footer-wrapper{
+  background-color:#82582d;
+  height:200px;
+  margin:0 auto;
+  clear:both;}
+  
+  #site-footer{
+  width:960px;
+  margin:0 auto;
+  position:relative;}
+  
+  #site-footer {
+  color:white}
+  
+  #footer-contact{
+  position:absolute;
+  left:0;
+  top:10px;
+  width:500px;}
+  
+  #footer-follow{
+  position:absolute;
+  right:60px;
+  top:10px;}
+  
+  #footer-follow li{
+  float:left;}
+	
+	
+@font-face {
+    font-family: 'LobsterTwoBold';
+    src: url('fonts/LobsterTwo-Bold-webfont.eot');
+    src: url('fonts/LobsterTwo-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/LobsterTwo-Bold-webfont.woff') format('woff'),
+         url('fonts/LobsterTwo-Bold-webfont.ttf') format('truetype'),
+         url('fonts/LobsterTwo-Bold-webfont.svg#LobsterTwoBold') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+	
+	
+	
+	
 
