@@ -87,7 +87,13 @@ body{
 	left:200px;
 	margin:15px 10px 10px 20px;}
 	
-	
+	#site-wrapper{
+	position:relative;
+	top:0;
+	left:160px;
+	width:960px;
+	background-color:black;}
+		
 #top-menu{
 	position:relative;
 	top:10px;
