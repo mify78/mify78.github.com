@@ -156,7 +156,7 @@ background-color: white;}
 	padding-top:5px;}
 	
   #page p{
-font:1.0em/2.0em georgia,san-serif; 
+font:0.875em/1.75em georgia,san-serif; 
 		margin:10px 20px;}
 		
   #sidebar{float:right;
@@ -196,14 +196,17 @@ font:1.0em/2.0em georgia,san-serif;
   margin:0 auto;
   position:relative;}
   
-  #site-footer {
-  color:white}
-  
+  #site-footer h1{
+  color:white;
+  font:0.875em/1.75em georgia,san-serif;}
+		
   #footer-contact{
   position:absolute;
   left:0;
   top:10px;
-  width:500px;}
+  width:500px;
+  font:0.75em/1.5em georgia,san-serif;
+  margin:10px 20px;}
   
   #footer-follow{
   position:absolute;
