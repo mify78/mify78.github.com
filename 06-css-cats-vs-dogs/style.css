@@ -96,9 +96,7 @@ body{
 	height:50px;}
 	
 	#top-menu li { 
-    float:left; 
-    border-right:
-    1px solid #CCC;}
+    float:left;}
   
   #top-menu li.last { border:0px; }
   
