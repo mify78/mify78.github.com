@@ -75,79 +75,110 @@ html[xmlns] .clearfix { display: block; }
 
 
 body{
-	position:relative;
-	margin: 0 auto; 
-	width:960px;
-	height:853px;
 	background-color: white;}
 	
-	img.logo{
+	#site-header{
+	width:960px;
+	margin:0 auto;
+	position:relative;}
+	
+	h1{
 	position:relative;
-	top:0;
-	left:200px;
-	margin:15px 10px 10px 20px;}
-	
-	
+	margin: 0 auto;
+	font-size:60px;
+	font-family:georgia;
+	font-weight:bold;
+	color:grey;
+	padding-bottom:20px;
+	padding-top:20px;
+	padding-left:250px;}
+		
 #top-menu{
 	position:relative;
-	top:10px;
-	left:160px;
+	margin: 0 auto;
 	width:960px;
-	height:50px;}
+	height:40px;
+	border-top:3px solid #CCC;
+    border-bottom:3px solid #CCC;}
 	
 	#top-menu li { 
-    float:left; 
-    border-right:
-    1px solid #CCC;}
+ float:left;
+ padding-left:45px;}
   
   #top-menu li.last { border:0px; }
   
   #top-menu li a { display:block; 
-    padding:15px 20px;
-    font-size:18px;
-    color:black;
-    text-decoration:none;}
+ 
+    padding:10px 40px 0 10px;
+    font-size:24px;
+    color:grey;
+    text-decoration:none;
+    text-transform:uppercase;
+  font-weight:bold;}
     
   #top-menu li a:hover { 
   background-color:#DDD; }
 	
-img.dog{
+	#content{	
+	width:960px;
+  	margin:0 auto;}
+  	
+  	#dog{
+  	float:left;
+  	padding-top:5px;
+  	padding-bottom:5px;
+  	width:45%;}
+  	
+  	img.dog{
 	float:left;
-	width:93%;
-	margin:20px 0px;
-	padding:10px;}
-	
-	article.dog	{
-	float:left;
-	width:50%;
-	margin:20px 0px;}
-	
-	img.cat{
+	width:103%;
+	padding-top:20px;
+	padding-bottom:10px;}
+  	
+  	#cat{
+  	float:right;
+  	padding-top:5px;
+  	padding-bottom:5px;
+  	width:45%;}
+  	
+  	img.cat{
 	float:right;
-	width:90%;
-	margin:20px 0px;
-	padding:10px;}
+	width:100%;
+	padding-top:20px;
+	padding-bottom:10px;}
 	
-	article.cat	{
-	float:right;
-	width:50%;
-	margin:20px 0px;}
-	
-	h1{
-	font:1.4em/1.4em"georgia";
+	h2{
+	font-size:30px;
+	font-family:georgia;
 	font-weight:bold;
-	margin:10px 20px;
-	text-align:left;}
+	color:black;
+	padding-top:5px;}
 		
 	p{
-	font:0.75em/1.5em verdana,san-serif; 
-		text-transform:capitalize;
-		margin:10px 20px;
-		text-align:left;}
+	font-size:16px;
+	font-family:georgia;
+	color:black;
+	padding-top:10px;
+	padding-bottom:10px;}
 		
-		
-footer {
+  #site-footer{
+  width:960px;
+  margin:0 auto;
+  position:relative;
+  padding-top:30px;
+  color:grey;
+  font-size:16px;
+font-family:georgia;
 clear:both;
-font-weight:italic;
-font:0.75em/1.5em verdana,san-serif;}
+ border-top:3px solid #CCC;}
+
+#footer-credit{
+ float:left;
+ padding-right:60px;}
+
+#footer-copyright{
+float:right;
+ padding-left:60px;}
+ 
+
 
