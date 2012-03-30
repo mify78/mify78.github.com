@@ -1,0 +1,182 @@
+
+
+/* Meyer Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Center Content */
+
+.centered { 
+  margin:0 auto;
+  width:960px;
+}
+
+
+/* Clearfix */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+
+
+body{
+	background-color: white;}
+	
+	#site-header{
+	width:960px;
+	margin:0 auto;
+	position:relative;}
+	
+	img.logo{
+	position:relative;
+	margin: 0 auto; 
+	width:445px;
+	height:105px;
+	padding-bottom:20px;
+	padding-top:20px;
+	padding-left:250px;}
+		
+#top-menu{
+	position:relative;
+	margin: 0 auto;
+	width:960px;
+	height:40px;
+	border-top:3px solid #CCC;
+    border-bottom:3px solid #CCC;}
+	
+	#top-menu li { 
+ float:left;
+ padding-left:45px;}
+  
+  #top-menu li.last { border:0px; }
+  
+  #top-menu li a { display:block; 
+ 
+    padding:10px 40px 0 10px;
+    font-size:24px;
+    color:grey;
+    text-decoration:none;
+    text-transform:uppercase;
+  font-weight:bold;}
+    
+  #top-menu li a:hover { 
+  background-color:#DDD; }
+	
+	#content{	
+	width:960px;
+  	margin:0 auto;}
+  	
+  	#dog{
+  	float:left;
+  	padding-top:5px;
+  	padding-bottom:5px;
+  	width:45%;}
+  	
+  	img.dog{
+	float:left;
+	width:103%;
+	padding-top:20px;
+	padding-bottom:10px;}
+  	
+  	#cat{
+  	float:right;
+  	padding-top:5px;
+  	padding-bottom:5px;
+  	width:45%;}
+  	
+  	img.cat{
+	float:right;
+	width:100%;
+	padding-top:20px;
+	padding-bottom:10px;}
+	
+	h1{
+	font-size:30px;
+	font-family:georgia;
+	font-weight:bold;
+	color:black;
+	padding-top:5px;}
+		
+	p{
+	font-size:16px;
+	font-family:georgia;
+	color:black;
+	padding-top:10px;
+	padding-bottom:10px;}
+		
+  #site-footer{
+  width:960px;
+  margin:0 auto;
+  position:relative;
+  padding-top:30px;
+  color:grey;
+  font-size:16px;
+font-family:georgia;
+clear:both;
+ border-top:3px solid #CCC;}
+
+#footer-credit{
+ float:left;
+ padding-right:60px;}
+
+#footer-copyright{
+float:right;
+ padding-left:60px;}
+ 
+
+
