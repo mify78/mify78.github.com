@@ -155,11 +155,10 @@ background-color: white;}
 	color:#82582d;
 	padding-top:5px;}
 	
-	#page p{
-	font:0.75em/1.5em verdana,san-serif; 
-		text-transform:capitalize;
+  #page p{
+	font:0.75em/1.5em georgia,san-serif; 
 		margin:10px 20px;}
-  
+		
   #sidebar{float:right;
   width:250px;
   padding-top:55px;}
