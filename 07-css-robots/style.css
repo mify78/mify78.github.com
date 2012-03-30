@@ -156,7 +156,8 @@ background-color: white;}
 	padding-top:5px;}
 	
   #page p{
-	font:0.75em/1.5em georgia,san-serif; 
+	font-size:16px; 
+	font-family:georgia; 
 		margin:10px 20px;}
 		
   #sidebar{float:right;
