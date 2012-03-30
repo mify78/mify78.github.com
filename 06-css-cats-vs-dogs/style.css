@@ -96,7 +96,6 @@ body{
 	
 	#top-menu li { 
     float:left;
-    width:960px;
     border-top:3px solid #CCC;}
   
   #top-menu li.last { border:0px; }
