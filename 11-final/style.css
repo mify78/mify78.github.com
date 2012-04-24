@@ -76,86 +76,165 @@ html[xmlns] .clearfix { display: block; }
 
 body{
 	background-color: #cccccc;
-	width:1050px;
+	width:100%;
 	margin:0 auto;}
 	
 	#site-header{
-	width:1050px;
+	width:100%;
 	margin:0 auto;
 	position:relative;}
 	
 	h1{
 	position:relative;
 	margin: 0 auto;
-	font-size:60px;
+	font-size:3.0em;
 	font-family:georgia;
 	font-weight:bold;
 	color:grey;
-	padding-bottom:20px;
-	padding-top:20px;
-	padding-left:250px;}
+	padding-bottom:1%;
+	padding-top:1%;
+	padding-left:10%;}
 	
-	img.logo{
+	img.site-logo{
 	position:relative;
 	margin: 0 auto; 
-	width:350px;
-	height:105px;
-	padding-bottom:20px;
-	padding-top:20px;
-	padding-left:250px;}
+	width:9%;
+	height:8.5%;
+	padding-bottom:1%;
+	padding-top:1%;}
 		
 #top-menu{
 	position:relative;
 	margin: 0 auto;
-	width:1050px;
-	height:40px;
+	width:100%;
+	height: auto;
 	border-top:3px solid #f7eeaf;
-    border-bottom:3px solid #f7eeaf;}
+	border-bottom:3px solid #f7eeaf;}
 	
 	#top-menu li { 
  	float:left;
- 	padding-left:30px;}
+ 	padding-top:1%;
+ 	padding-left:10%;
+ 	padding-bottom:1%;}
   
   #top-menu li.last { border:0px; }
   
-  #top-menu li a { display:block; 
- 
-    padding:10px 20px 0 10px;
-    font-size:24px;
+  #top-menu li a { 
+  display:block;
+ padding:10px 20px 0 10px;
+    font-size:2.0em;
     color:grey;
     text-decoration:none;
     text-transform:uppercase;
   font-weight:bold;}
     
   #top-menu li a:hover { 
-  background-color:#DDD; }
-	
-	#content{	
-	width:1050px;
-  	margin:0 auto;
-  	background-color:#f7eeaf;}
+  background-color:#DDD;}
   	
-	h1{
-	font-size:30px;
+  	#content{
+	float:left;
+  width:100%;
+  	margin:0 auto;
+  padding-top:2%;
+  background-color:#ffffff;}
+  
+  img.africa-map{
+	float:left; 
+	width:350px;
+	height:381px;
+	padding:1% 1% 1% 1%;}
+	
+	.about-nigeria { 
+ 	float:left;
+ 	width:25%;
+	color:#34ad65;
+	padding:1% 1% 1% 1%;}
+	
+	.big-house-issue{
+	float:left;
+	width:30%;
+	color:#8d300d;
+	padding:1% 1% 1% 1%;}
+	
+	.end-result{
+	float:left;
+	width:100%;
+	color:##cccccc;}
+	
+	.design-principles{
+	float:left;
+	width:30%;
+	color:##cccccc;}
+	
+	.principle-notes {
+	float:right;
+	width:30%;
+	color:#f7eeaf;}
+	
+	#3a6f8f
+  	
+	h2{
+	float:left;
+	font-size:2.0em;
 	font-family:georgia;
 	font-weight:bold;
 	color:#474444;
-	padding-top:5px;}
+	padding-bottom:1%;
+	padding-top:1%;}
 		
 	p{
-	font-size:16px;
+	font-size:1.5em;
 	font-family:georgia;
-	color:#DDD;
-	padding-top:10px;
-	padding-bottom:10px;}
+	padding-top:1%;
+	padding-bottom:1%;}
+	
+	
+	#design-principles { 
+ 	float:left;
+ 	padding-left:1%;}
+  
+  #design-principles li.last { border:0px; }
+  
+  #design-principles li a { 
+  display:block;
+ padding:10px 20px 0 10px;
+    font-size:24px;
+    color:#f7eeaf;
+    text-decoration:none;
+    text-transform:uppercase;
+  font-weight:bold;}
+    
+  #design-principles li a:hover { 
+  background-color:#DDD;}
+  
+  img.dwg-2{
+  float:left;
+  width:20%;
+  padding:1% 1% 1% 1%;}
+  
+ img.dwg-3{
+  float:left;
+  width:20%;
+  padding:1% 1% 1% 1%;}
+  
+  img.dwg-4{
+  float:left;
+  width:20%;
+  padding:1% 1% 1% 1%;}
+  
+  img.dwg-5{
+  float:left;
+  width:40%;
+  padding:1% 1% 1% 1%;}
 		
   #site-footer{
-  width:1050px;
+  width:100%;
   margin:0 auto;
   position:relative;
-  padding-top:30px;
+  padding-top:1%;
+  background-color:#cccccc;
   color:grey;
-  font-size:16px;
+  font-size:1.5em;
 font-family:georgia;
 clear:both;
  border-top:3px solid #CCC;}
